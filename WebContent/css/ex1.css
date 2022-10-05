@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  margin:0;padding:0;
+}
+
+body {
+  font-family:'NanumSquare',sans-serif !important;
+  font-size:14px; color:#4e4e4e;
+  line-height:1.4;	
+  background: white;
+}
+
+h1,h2,h3,h4,h5,h6{font-weight: 700;}
+li{list-style:none;}
+a{color:inherit; text-decoration:none;}
+
+/*header�쁺�뿭*/
+
+
+.header{
+  padding:0 10px;
+  margin:0 5%; 
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topbar{padding:0;margin-right:5%;
+	display:flex;flex-direction:row-reverse;
+}
+
+.topbar li {margin-left:15px;padding:0;
+   font-size:15px;color:black;
+   }
+
+/*濡쒓퀬*/
+#logo {
+  /* font-size: 80px;font-weight:900;
+  letter-spacing:-16px; */
+  margin:0 10% 10px;
+  text-align:center;
+} 
+
+
+/*硫붾돱諛�*/
+.nav {
+  font-size: 20px;
+ height:35px;width:100%;
+  opacity: 0.5; background-color: lightgray;
+  top:0px;
+}
+.nav ul {
+	height:35px;width:100%;
+	display:inline-flex;
+	justify-content:center;
+	
+}
+.nav ul li {
+	display:inline-flex;
+	padding: 0 25 0 25;
+	
+	
+}
+.nav a {
+   padding: 5px 35px;
+  text-decoration: none;
+  margin:0;height:35px;
+}
+.nav a:hover {
+	background-color:#eee;color:#58919A;
+}
+
+
+
+/*硫붿씤*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both; overflow: hidden;
+}
+
+.card {
+    width:100%;
+    height: auto;
+    position: relative;
+}
+.card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card .center {
+	width: 100%;
+    height: auto;
+    text-align:center;
+    margin:0;
+    position: relative;
+    background-color:#ffffff;
+}
+
+.card .center img{
+	width:70%; height:auto;
+/* width:100%; */}
+
+.card .center .centerTitle{
+	font-size: 20px; 
+	width:50%;
+    height:auto;
+    position: absolute;
+    top:20%;
+    left:30%;
+    text-align:right;
+}
+.card .center .centerTitle h2 {
+	font-size:20px;padding:20px;
+}
+
+
+
+/*�꽌釉뚮찓�돱*/
+.under {
+  margin-top:0px;
+  text-align:center;
+  background:rgba(255,255,255,.4);
+ 	display:inline-flex;
+ 	padding:0 200 0 200;
+	/* justify-content:space-around; */
+}
+.under .guide {
+	margin-top:50px;
+	width:25%;
+	text-align:center;
+	padding:10px 0 0;
+	/* background-color:#fff; 
+	border:1px solid #eee; */
+	/* display:inline-flex; */
+}
+/* .under .guide h3{font-size:25px; 
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+    padding: 10px;margin:20px auto;
+    width: 30%;
+} */
+.under .guide img{width:80%; /* opacity:0.5; */}
+.under .guide img:hover {opacity:1;}
+
+/*footer �쁺�뿭*/
+footer {
+  padding:0px;
+  text-align: center;
+  height:200px;width:100%;position:relative;
+  background:rgba(255,255,255,.4);
+}
+
+ .footerLogo{/* font-size:40px;
+	font-weight:900;letter-spacing:-8px; */
+ 	padding: 30 0 10;
+ }
+.sns li{display:inline-block;margin:15px;position:relative;}
+.sns img{width:30px;height:30px;}
+
+
+
+/*寃뚯떆�뙋遺�遺�*/
+#wrap{
+	width:100%;height:80%;
+}
+table{
+	width:70%;
+	border-collapse:collapse;
+	font-size:13px;line-height:24px;
+}
+table h1{font-size:20px;}
+td,th {padding:5px;border-top:lightgray solid 1px;}
+table textarea { border:none; }
+
+/*濡쒓렇�씤*/
+.loginform , .w3-table {width:20%;text-align:center;
+		margin:150px auto; }
+.join_frm {
+	width:30%;text-align:left;
+	margin-top:50px;
+}
+.join_frm span {color:red; }
+/*intro-about 遺�遺�*/
+.about {
+	width:100%;margin:0;
+	background-color:white;margin:0;
+}
+.aboutTitle {
+	font-size: 20px;
+	width: 100%;
+    height: 400px;
+     text-align:center;
+    padding:20px;font-weight:300;
+    background:rgba(255,255,255,.4);
+}
+.aboutTitle ul li {font-size:15px;
+		margin-top:15px;}
+.aboutTitle ul li span{
+	color:red;
+}		
+#intro_sec {
+	width:40%;text-align:center;
+	height:8%;padding:30px;
+}
+#intro_sec h1 {
+	font-size:30px; 
+    padding: 10px;margin:20px auto;
+    border-top:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+	width:80%;
+}
+.desc {
+	display:inline-block;
+	width:450px;
+}
+.desc h3{font-size:20px;margin:10px auto;}
+
+#middle_sec {font-size:20px;
+	display:inline-flex;
+	justify-content:center;
+	padding:10px 20px;margin:50px 100px;
+	border:1px solid #eee;
+}
+#middle_sec:hover {
+	background-color:#eee;
+
+}
+
+.hsize{font-size:35px;}
+ .comment{
+ resize : none;
+ width : 100%;
+ }
